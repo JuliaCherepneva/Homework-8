@@ -34,7 +34,7 @@ public class Main {
         }
 
         System.out.println("\nЗадача 3");
-        for (int index = 2; index < massiv1.length; index--) {
+        for (int index = massiv1.length - 1; index < massiv1.length; index--) {
             if (index <= 0) {
                 System.out.println(massiv1[index]);
                 break;
@@ -42,14 +42,14 @@ public class Main {
             System.out.print(massiv1[index] + ", ");
         }
 
-        for (int index = 2; index < massiv2.length; index--) {
+        for (int index = massiv1.length - 1; index < massiv2.length; index--) {
             if (index <= 0) {
                 System.out.println(massiv2[index]);
                 break;
             }
             System.out.print(massiv2[index] + ", ");
         }
-        for (int index = 3; index < myMassiv.length; index--) {
+        for (int index = massiv1.length; index < myMassiv.length; index--) {
             if (index <= 0) {
                 System.out.println(myMassiv[index]);
                 break;
@@ -62,9 +62,9 @@ public class Main {
         for (int index = 0; index < massiv1.length; index++) {
             if (massiv1[index] % 2 != 0) {
                 massiv1[index]++;
-                System.out.print(massiv1[index] + " ");
+                System.out.println(Arrays.toString(massiv1));
             } else {
-                System.out.print(massiv1[index] + " ");
+                System.out.println(Arrays.toString(massiv1));
             }
         }
     }
