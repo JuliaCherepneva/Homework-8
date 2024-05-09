@@ -42,14 +42,14 @@ public class Main {
             System.out.print(massiv1[index] + ", ");
         }
 
-        for (int index = massiv1.length - 1; index < massiv2.length; index--) {
+        for (int index = massiv2.length - 1; index < massiv2.length; index--) {
             if (index <= 0) {
                 System.out.println(massiv2[index]);
                 break;
             }
             System.out.print(massiv2[index] + ", ");
         }
-        for (int index = massiv1.length; index < myMassiv.length; index--) {
+        for (int index = myMassiv.length - 1; index < myMassiv.length; index--) {
             if (index <= 0) {
                 System.out.println(myMassiv[index]);
                 break;
