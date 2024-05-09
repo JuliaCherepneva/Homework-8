@@ -62,11 +62,9 @@ public class Main {
         for (int index = 0; index < massiv1.length; index++) {
             if (massiv1[index] % 2 != 0) {
                 massiv1[index]++;
-                System.out.println(Arrays.toString(massiv1));
-            } else {
-                System.out.println(Arrays.toString(massiv1));
             }
         }
+        System.out.println(Arrays.toString(massiv1));
     }
 }
 
